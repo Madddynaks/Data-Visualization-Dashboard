@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tooltip styles in App.css or a separate CSS file */
+.tooltip {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  }
+
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #7367F0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 0 2px;
+  }
+  
+  .pagination button:hover {
+    background-color:#7367F0;
+  }
+  
+  .pagination button.active {
+    background-color: black;
+  }
+  
+  
